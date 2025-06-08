@@ -1,7 +1,7 @@
-require("dotenv").config()
+// require("dotenv").config()
 const axios = require('axios');
-const token = process.env.SLACK_BOT_TOKEN;
-const channel = process.env.CHANNEL_ID;
+// const token = process.env.SLACK_BOT_TOKEN;
+// const channel = process.env.CHANNEL_ID;
 
 
 module.exports.sendMessage = async (token, channel) => {
