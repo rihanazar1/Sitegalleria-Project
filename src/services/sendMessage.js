@@ -10,7 +10,7 @@ module.exports.sendMessage = async (token, channel) => {
             'https://slack.com/api/chat.postMessage',
             {
                 channel,
-                text: "👋 Hello from Rihan's bot!",
+                text: "test delete function",
             },
             {
                 headers: {
